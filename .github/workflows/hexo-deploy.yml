@@ -25,7 +25,13 @@ jobs:
         run: npm install  
 
       - name: Generate Static Files  
-        run: hexo generate  
+        run: hexo generate
+
+      - name: Copy CNAME  
+        run: |  
+          if [ -f CNAME ]; then  
+            cp CNAME public/  
+          fi
 
       - name: Deploy to GitHub Pages  
         uses: peaceiris/actions-gh-pages@v3  
@@ -33,4 +39,4 @@ jobs:
           github_token: ${{ secrets.DEPLOY_TOKEN }}  
           publish_dir: ./public  
           publish_branch: gh-pages  
-           force_orphan: true
+          force_orphan: true
