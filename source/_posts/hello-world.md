@@ -1,38 +1,13 @@
 ---
-title: Hello World
+abbrlink: ''
+categories: []
+date: ''
+tags: []
+title: 你好世界！
+updated: '2024-01-29T18:42:41.630+08:00'
 ---
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
+消费降级了，🙁。所以说，我给把我的博客迁移到Hexo，进行一个Serverless的概念的一个托管。
 
-## Quick Start
+虽然说我的博客大多数情况下是一个摆设，但是没有续费的压力也许能乱写一些乱七八糟的。
 
-### Create a new post
-
-``` bash
-$ hexo new "My New Post"
-```
-
-More info: [Writing](https://hexo.io/docs/writing.html)
-
-### Run server
-
-``` bash
-$ hexo server
-```
-
-More info: [Server](https://hexo.io/docs/server.html)
-
-### Generate static files
-
-``` bash
-$ hexo generate
-```
-
-More info: [Generating](https://hexo.io/docs/generating.html)
-
-### Deploy to remote sites
-
-``` bash
-$ hexo deploy
-```
-
-More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
+令人唏嘘，不过也算是一个新的开始！
