@@ -103,4 +103,4 @@ theme: landscape
 deploy:
   type: 'git'
   repo: 'git@github.com:mashirosa/mashirosa.github.io.git'
-  branch: 'master'
+  branch: 'gh-pages'
