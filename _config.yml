@@ -5,15 +5,15 @@
 # Site
 title: 幻乐阁
 subtitle: '幽梦轻扬，夜韵似幻'
-description: 'A Blog Site Made by MashiroSA.'
+description: 'A Blog Site Made by Chitsanfei0v0.'
 keywords:
-author: MashiroSA
+author: Chitsanfei0v0
 language: en
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://mashirosa.emu.ac.cn
+url: https://fei.emu.ac.cn
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
