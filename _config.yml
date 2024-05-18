@@ -5,7 +5,7 @@
 # Site
 title: 幻乐阁
 subtitle: '幽梦轻扬，夜韵似幻'
-description: 'A Blog Site Made by Chitsanfei0v0.'
+description: 'Just a Simple World!'
 keywords:
 author: Chitsanfei0v0
 language: en
@@ -119,5 +119,5 @@ githubEmojis:
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: 'git'
-  repo: 'git@github.com:mashirosa/mashirosa.github.io.git'
+  repo: 'git@github.com:chitsanfei/chitsanfei.github.io.git'
   branch: 'gh-pages'

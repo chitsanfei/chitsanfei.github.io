@@ -16,8 +16,8 @@ menu:
   # List||fas fa-list:
   #   Music: /music/ || fas fa-music
   #   Movie: /movies/ || fas fa-video
-  Link: /link/ || fas fa-link
-  Status: https://status.emu.ac.cn
+  Friends: /friends/ || fas fa-link
+  Status: https://status.emu.ac.cn || fas fa-heartbeat
   About: /about/ || fas fa-heart
 
 # Code Blocks (代碼相關)
@@ -235,7 +235,7 @@ aside:
       link: https://github.com/chitsanfei
   card_announcement:
     enable: true
-    content: This is my Blog
+    content: 不许闹！文章内容仅代表个人观点哦！
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
@@ -281,8 +281,8 @@ busuanzi:
 # Time difference between publish date and now (網頁運行時間)
 # Formal: Month/Day/Year Time or Year/Month/Day Time
 runtimeshow:
-  enable: false
-  publish_date:
+  enable: true
+  publish_date: 5/19/2024 00:00:00
 
 # Aside widget - Newest Comments
 newest_comments:
