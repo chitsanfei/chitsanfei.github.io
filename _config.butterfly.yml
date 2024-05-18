@@ -52,17 +52,17 @@ avatar:
 disable_top_img: false
 
 # The banner image of home page
-index_img: https://s2.loli.net/2023/03/30/E1vOW5KxN8HaSFl.jpg
+index_img: https://s2.loli.net/2024/05/19/X9oqJdCvxkQhYlI.jpg
 
 # If the banner of page not setting, it will show the top_img
-default_top_img: https://s2.loli.net/2023/03/30/E1vOW5KxN8HaSFl.jpg
+default_top_img: https://s2.loli.net/2024/05/19/X9oqJdCvxkQhYlI.jpg
 
 # The banner image of archive page
-archive_img: https://s2.loli.net/2023/03/30/E1vOW5KxN8HaSFl.jpg
+archive_img: https://s2.loli.net/2024/05/19/X9oqJdCvxkQhYlI.jpg
 
 # If the banner of tag page not setting, it will show the top_img
 # note: tag page, not tags page (子標籤頁面的 top_img)
-tag_img: https://s2.loli.net/2023/03/30/E1vOW5KxN8HaSFl.jpg
+tag_img: https://s2.loli.net/2024/05/19/X9oqJdCvxkQhYlI.jpg
 
 # The banner image of tag page
 # format:
@@ -71,7 +71,7 @@ tag_per_img:
 
 # If the banner of category page not setting, it will show the top_img
 # note: category page, not categories page (子分類頁面的 top_img)
-category_img: https://s2.loli.net/2023/03/30/E1vOW5KxN8HaSFl.jpg
+category_img: https://s2.loli.net/2024/05/19/X9oqJdCvxkQhYlI.jpg
 
 # The banner image of category page
 # format:
