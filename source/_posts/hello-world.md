@@ -1,10 +1,12 @@
 ---
 abbrlink: ''
-categories: []
+categories:
+- - 日常
 date: ''
-tags: []
+tags:
+- 日常
 title: 你好世界！
-updated: '2024-01-29T20:23:41.627+08:00'
+updated: '2024-05-21T22:05:16.489+08:00'
 ---
 消费降级了，🙁。所以说，我给把我的博客迁移到Hexo，进行一个Serverless的概念的一个托管。
 
