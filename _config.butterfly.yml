@@ -9,16 +9,17 @@ nav:
 
 # Menu 目錄
 menu:
-  Home: / || fas fa-home
-  Archives: /archives/ || fas fa-archive
-  Tags: /tags/ || fas fa-tags
-  Categories: /categories/ || fas fa-folder-open
+  主页: / || fas fa-home
+  归档: /archives/ || fas fa-archive
+  标签: /tags/ || fas fa-tags
+  分类: /categories/ || fas fa-folder-open
   # List||fas fa-list:
   #   Music: /music/ || fas fa-music
   #   Movie: /movies/ || fas fa-video
-  Friends: /friends/ || fas fa-link
-  Status: https://status.emu.ac.cn || fas fa-heartbeat
-  About: /about/ || fas fa-heart
+  友链: /friends/ || fas fa-link
+  知识库: https://medi.emu.ac.cn || fas fa-link
+  状态: https://status.emu.ac.cn || fas fa-heartbeat
+  关于: /about/ || fas fa-heart
 
 # Code Blocks (代碼相關)
 # --------------------------------------
