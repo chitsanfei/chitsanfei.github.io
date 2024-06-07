@@ -5,10 +5,49 @@
     
     <entry>
       <title>你好世界！</title>
-      <link href="/2024/05/18/hello-world/"/>
-      <url>/2024/05/18/hello-world/</url>
+      <link href="/2024/06/07/82ee1760/"/>
+      <url>/2024/06/07/82ee1760/</url>
       
         <content type="html"><![CDATA[<p>消费降级了，🙁。所以说，我给把我的博客迁移到Hexo，进行一个Serverless的概念的一个托管。</p><p>虽然说我的博客大多数情况下是一个摆设，但是没有续费的压力也许能乱写一些乱七八糟的。</p><p>令人唏嘘，不过也算是一个新的开始！</p><p>顺便测试一下CNAME有没有问题。</p><p>再测试一下Vercel有没有问题。</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>如何重置 Git 内的所有的 Commit 记录</title>
+      <link href="/2024/06/04/33649cac/"/>
+      <url>/2024/06/04/33649cac/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>记录一下省的我下次忘记。</p></blockquote><ul><li>检出到一个全新的分支：</li></ul><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git checkout --orphan latest_branch</span><br></pre></td></tr></tbody></table></figure><ul><li>在新分支中新建一个新的提交：</li></ul><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git add -A</span><br><span class="line">git commit -am <span class="string">"init: init"</span></span><br></pre></td></tr></tbody></table></figure><ul><li>删除旧的主分支：</li></ul><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git branch -D master</span><br></pre></td></tr></tbody></table></figure><ul><li>重命名当前分支为主分支：</li></ul><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git branch -m master</span><br></pre></td></tr></tbody></table></figure><ul><li>强制更新远程主分支：</li></ul><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push -f origin master</span><br></pre></td></tr></tbody></table></figure>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>记录生活上遇到的逆天人</title>
+      <link href="/2024/05/21/988f61bd/"/>
+      <url>/2024/05/21/988f61bd/</url>
+      
+        <content type="html"><![CDATA[<h1 id="记一下生活上的逆天人"><a href="#记一下生活上的逆天人" class="headerlink" title="记一下生活上的逆天人"></a>记一下生活上的逆天人</h1><p>有时候，你呆在医学院就很无助。</p><p>五年过去了，真的有些人的情商是真的低到离谱，我真的真的忍不住去骂，本来我对三次元いろいろな人的忍受度都还挺好的。</p><p>真的有人现实中当我面说我调剂的学校不属于医学院，日常各种锐评同级生的去处，来把人分三六九等，私下还了解城市嫖娼的价格，甚至说我记得以前见习有一个病人推过去的时候他还来了句锐评：“摔成这个狗样子”，一点同情心都没有，就想着钱和人脉了，活着就像个逆天前浪一样。</p><p>我绝对绝对绝对不想在现实遇到这样的傻逼了，虽然真的很难避免，但是我真的不想遇到这样的傻逼。</p><p>这位甚至是上交的，令人唏嘘。</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>服务器喜提爆炸</title>
+      <link href="/2024/05/18/20af7c37/"/>
+      <url>/2024/05/18/20af7c37/</url>
+      
+        <content type="html"><![CDATA[<p>我真的很服气 Host the Best 的服务，能一炸炸两天，还以为交割服务器线路呢。</p><p>所以说某方面来讲 Hexo + Serverless 确实好用，又简洁又能摸鱼又能省钱又不至于太难看。</p><p>是的，我在 CST 2024/5/19 4:37 写下这篇吐槽文，因为我在补材料，天哪。4202年还需要学生手写材料，U really drive me crazy。</p><p>之后看看能不能把我的文章抢救回来吧。</p>]]></content>
       
       
       
