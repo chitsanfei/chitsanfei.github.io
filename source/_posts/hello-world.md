@@ -1,10 +1,10 @@
 ---
-abbrlink: 22117
+abbrlink: '22117'
 categories: []
-date: ''
+date: '2024-01-01'
 tags: []
 title: 你好世界！
-updated: '2024-05-21T22:05:41.793+08:00'
+updated: '2024-06-07T16:50:06.873+08:00'
 ---
 消费降级了，🙁。所以说，我给把我的博客迁移到Hexo，进行一个Serverless的概念的一个托管。
 
