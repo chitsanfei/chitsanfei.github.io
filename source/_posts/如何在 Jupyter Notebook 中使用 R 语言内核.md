@@ -1,10 +1,12 @@
 ---
 abbrlink: 47021a1b
-categories: []
+categories:
+- - 教程
 date: '2024-06-07T16:52:05.770777+08:00'
-tags: []
+tags:
+- '2024'
 title: 如何在 Jupyter Notebook 中使用 R 语言内核
-updated: '2024-07-14T21:44:31.142+08:00'
+updated: '2024-08-05T10:03:10.649+08:00'
 ---
 # 前言
 
