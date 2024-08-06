@@ -3,7 +3,8 @@ abbrlink: e592c398
 categories:
 - - 教程
 date: '2024-07-31T23:24:45.790877+08:00'
-tags: []
+tags:
+- '2024.7'
 title: 如何在 Huggingface Space 的 Jupyterlab 中使用 R 内核
 updated: '2024-08-06T15:42:52.688+08:00'
 ---
