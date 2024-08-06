@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>泛谈一些小众服务器提供商的服务情况</title>
+      <link href="/posts/a6eed836/"/>
+      <url>/posts/a6eed836/</url>
+      
+        <content type="html"><![CDATA[<p>相信很多人和我一样会接触到云计算和云计算服务，国内有很多大厂，比如现在基本二分小众开发者的阿里云和腾讯云，布局云计算很早的百度云，依托自己的短视频服务宣传的火山引擎。可以说，作为独立开发者，在云计算的浪潮中航行，既充满了挑战也蕴藏着无限的机遇。小众开发者虽显渺小，但依旧能够找到属于自己的一片天地。</p><p>然而，一个较为棘手的问题是，用户侧网络运营费用的重担在很大程度上被转嫁给了企业，这不可避免地导致了一个现象：若企业在国内开展需依赖出口带宽的业务，其所面临的成本将异常高昂。简而言之，云计算这一领域始终伴随着巨大的资金投入，即便是在当前努力降低成本的大环境下，其“烧钱”的特质依然显著。特别是在今天经济下行的大趋势下，这种效应尤为明显。</p><p>故而，怎样对齐个人需求和运算成本，是我们每一个独立开发者都需要思考的一个问题。</p><p>首先是阿里云，阿里云作为老牌电商加盟的云计算服务，背靠阿里集团，财资雄略，阿里目前手头上是有99计划，2H2G3M的轻量服务器可以自现在24到26年以99元/年的价格新购和续费，都是国内机型，没有新旧用户或推广要求，这对于开发者十分友好。此外阿里的新注册用户可以购到82元/年2H2G的机型，但是这个新购价格对比其他厂商是相对较高的，所以我目前只推荐能活动到26年一年一次的99计划机型，适合长期开。阿里云不好的地方是会对未备案域名解析到大陆地区的服务器做阻隔，而且这个阻隔系统是作用在全端口的http/https服务上，即使是宝塔面板也不能错过的，这项技术在腾讯云也一样，并且在我的印象中百度云是最先上的，多少还是有点令人感慨。此外阿里云的服务器管理面板很复杂，感觉如果能精简一点会好。</p><p>其次是腾讯云，腾讯云目前的新购活动，其中最吸引人的是2H2G3M的轻量型云服务器，价格只需38元/年，但需要抢购。此外，对于轻量型云服务器，有新老用户同购的优惠活动，可以选择79元或99元的2H2G4M配置，新购和续费一年的价格相同。从中期运营服务的角度来看，腾讯云的表现相当不错。腾讯云和阿里云都提供了国内机型，而且它们都对齐弹性公网ip。然而，腾讯云在云服务器的面板设计上更具现代感，用户体验更好。另外，腾讯云的 DNSPod 解析免费版本在国内使用速度也不错。总的来说，腾讯云对于新入坑云计算的个人开发者，值得大家考虑。至于国内未备案服务器阻隔网页端口，腾讯云也是如此。</p><p>不推荐国内大厂的任何AI计算的服务器租赁，成本很高，也不推荐独立开发者在做小型应用在大厂购买任何高于100元每年的小型云服务器，有活动的情况下必然看活动。实际上也不难发现，上述两家公司无疑是该领域的直接竞争对手，彼此间在市场份额的争夺上异常激烈。而提及百度云，尽管是早期部署云计算的先驱，但和他们家其他产品一样，其在该领域的之后表现相对平庸，因此，我个人认为，百度云通常不在首选之列（值得注意的是，用户还需警惕来自百度云客服经理的推销电话）。对于京东云而言，若大家手中有京豆，那么京东云不失为一种好选择。至于火山引擎，其最新推出的1H2G服务，年费设定为60元，作为一款年抛机型，从当前的市场反馈来看，其并未能展现出足够的竞争力或优势。</p><p>非大厂的服务器提供商我使用过的有雨云、DigitalVirt，Host the Best，Racknerd，稍微讲一下这四家：</p><p>雨云有游戏面板服务器和VPS，消费有返利，这一点挺不错。但是，雨云服务器的月额度基本在30-50元/月同2H2G的机型，好处是带宽和线路还不错，海外服务器有三网优化的，比较适合大家拿来做游戏服务器。</p><p>DigitalVirt 是一家老牌小众服务器提供商了，目前只推荐他们家的海外服务器，做活动的时候可以考虑购入小型服务器试玩一下，我用过他们家日本的服务器，裸连速度还可。</p><p>Host the Best 不太行，只支持信用卡支付先不说，线路很差，且会出现整个机房掉网的情况。Racknerd 也不太行，服务器超开，但是要比 Host the Best 好上这么一点点。两家的机子大约在16-18 USD/年 对齐 2H2G 的水平，唯一的好处就是海外廉价服务器，作为博客但是不太考虑链接速度和SLA的情况下还是可以考虑的。</p><p>总的来说，从我当初步入云计算到现在，云计算市场确实给独立开发者提供了多样化的选择，无论是老牌巨头如阿里云和腾讯云，还是新兴小众服务商如雨云和DigitalVirt，都各有其独特的优势与不足。消费降级的大趋势下的今天，“瘪瘪的钱包和难堪的窘境”也让我们的选择比较有限，我仅作为我个人，将我最近用到的云服务整编一下，希望能帮到大家。</p><p>本文不含任何商业成分推广，只是作为个人开发者的一点推荐。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 闲聊 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 2024.8 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>如何在 Huggingface Space 的 Jupyterlab 中使用 R 内核</title>
+      <link href="/posts/e592c398/"/>
+      <url>/posts/e592c398/</url>
+      
+        <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>相信有喜欢折腾的小伙伴见到 Huggingface 的 Space 新建菜单中看到了 Docker 下有快速构建 Jupyterlab 的按钮，我也十分好稀奇，因为有 Jupyterlab 的情况下可以添加 R 核心。当然，情况稍微有一点变化。</p><h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><p>Huggingface Space 的 Jupyterlab 建构下的文件结构类似于这样：</p><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">- Dockerfile</span><br><span class="line">- README.md</span><br><span class="line">- login.html</span><br><span class="line">- on_startup.sh</span><br><span class="line">- packages.txt</span><br><span class="line">- requirements.txt</span><br><span class="line">- start_server.sh</span><br></pre></td></tr></tbody></table></figure><p>其中，<code>on_startup.sh</code>会在 build 环节下自动执行 bash 指令，也许有人想到了可以在这里自动化安装核心，但是很可惜的是，这个执行是在 root 用户下的，并不会影响到 Jupyterlab 本身。</p><p>想必你已经注意到了，Space 托管的仓库实际上只有一个前端，而后端在 Dockerfile 中进行部署，所以你可以修改 Dockerfile 完成添加核心支持。<br>下面是我的 Dockerfile，你可以照抄，重构建后就会支持 R 核心了。</p><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br></pre></td><td class="code"><pre><span class="line">FROM nvidia/cuda:11.3.1-base-ubuntu20.04</span><br><span class="line"></span><br><span class="line">ENV DEBIAN_FRONTEND=noninteractive \</span><br><span class="line">    TZ=Europe/Paris</span><br><span class="line"></span><br><span class="line"># Remove any third-party apt sources to avoid issues with expiring keys.</span><br><span class="line"># Install some basic utilities</span><br><span class="line">RUN rm -f /etc/apt/sources.list.d/*.list &amp;&amp; \</span><br><span class="line">    apt-get update &amp;&amp; apt-get install -y --no-install-recommends \</span><br><span class="line">    curl \</span><br><span class="line">    ca-certificates \</span><br><span class="line">    sudo \</span><br><span class="line">    git \</span><br><span class="line">    wget \</span><br><span class="line">    procps \</span><br><span class="line">    git-lfs \</span><br><span class="line">    zip \</span><br><span class="line">    unzip \</span><br><span class="line">    htop \</span><br><span class="line">    vim \</span><br><span class="line">    nano \</span><br><span class="line">    bzip2 \</span><br><span class="line">    libx11-6 \</span><br><span class="line">    build-essential \</span><br><span class="line">    libsndfile-dev \</span><br><span class="line">    software-properties-common \</span><br><span class="line"> &amp;&amp; rm -rf /var/lib/apt/lists/*</span><br><span class="line"></span><br><span class="line">RUN add-apt-repository ppa:flexiondotorg/nvtop &amp;&amp; \</span><br><span class="line">    apt-get upgrade -y &amp;&amp; \</span><br><span class="line">    apt-get install -y --no-install-recommends nvtop</span><br><span class="line"></span><br><span class="line">RUN curl -sL https://deb.nodesource.com/setup_14.x  | bash - &amp;&amp; \</span><br><span class="line">    apt-get install -y nodejs &amp;&amp; \</span><br><span class="line">    npm install -g configurable-http-proxy</span><br><span class="line"></span><br><span class="line"># Install R and IRKernel dependencies</span><br><span class="line">RUN apt-get update &amp;&amp; \</span><br><span class="line">    apt-get install -y --no-install-recommends \</span><br><span class="line">    r-base \</span><br><span class="line">    r-base-dev \</span><br><span class="line">    libcurl4-openssl-dev \</span><br><span class="line">    libssl-dev \</span><br><span class="line">    libxml2-dev</span><br><span class="line"></span><br><span class="line"># Create a working directory</span><br><span class="line">WORKDIR /app</span><br><span class="line"></span><br><span class="line"># Create a non-root user and switch to it</span><br><span class="line">RUN adduser --disabled-password --gecos '' --shell /bin/bash user \</span><br><span class="line"> &amp;&amp; chown -R user:user /app</span><br><span class="line">RUN echo "user ALL=(ALL) NOPASSWD:ALL" &gt; /etc/sudoers.d/90-user</span><br><span class="line">USER user</span><br><span class="line"></span><br><span class="line"># All users can use /home/user as their home directory</span><br><span class="line">ENV HOME=/home/user</span><br><span class="line">RUN mkdir $HOME/.cache $HOME/.config \</span><br><span class="line"> &amp;&amp; chmod -R 777 $HOME</span><br><span class="line"></span><br><span class="line"># Set up the Conda environment</span><br><span class="line">ENV CONDA_AUTO_UPDATE_CONDA=false \</span><br><span class="line">    PATH=$HOME/miniconda/bin:$PATH</span><br><span class="line">RUN curl -sLo ~/miniconda.sh https://repo.continuum.io/miniconda/Miniconda3-py39_4.10.3-Linux-x86_64.sh \</span><br><span class="line"> &amp;&amp; chmod +x ~/miniconda.sh \</span><br><span class="line"> &amp;&amp; ~/miniconda.sh -b -p ~/miniconda \</span><br><span class="line"> &amp;&amp; rm ~/miniconda.sh \</span><br><span class="line"> &amp;&amp; conda clean -ya</span><br><span class="line"></span><br><span class="line">WORKDIR $HOME/app</span><br><span class="line"></span><br><span class="line"># Install IRKernel in the Conda environment</span><br><span class="line">RUN conda install -c r r-irkernel</span><br><span class="line"></span><br><span class="line">#######################################</span><br><span class="line"># Start root user section</span><br><span class="line">#######################################</span><br><span class="line"></span><br><span class="line">USER root</span><br><span class="line"></span><br><span class="line"># User Debian packages</span><br><span class="line">## Security warning : Potential user code executed as root (build time)</span><br><span class="line">RUN --mount=target=/root/packages.txt,source=packages.txt \</span><br><span class="line">    apt-get update &amp;&amp; \</span><br><span class="line">    xargs -r -a /root/packages.txt apt-get install -y --no-install-recommends \</span><br><span class="line">    &amp;&amp; rm -rf /var/lib/apt/lists/*</span><br><span class="line"></span><br><span class="line">RUN --mount=target=/root/on_startup.sh,source=on_startup.sh,readwrite \</span><br><span class="line">    bash /root/on_startup.sh</span><br><span class="line"></span><br><span class="line">RUN mkdir /data &amp;&amp; chown user:user /data</span><br><span class="line"></span><br><span class="line">#######################################</span><br><span class="line"># End root user section</span><br><span class="line">#######################################</span><br><span class="line"></span><br><span class="line">USER user</span><br><span class="line"></span><br><span class="line"># Python packages</span><br><span class="line">RUN --mount=target=requirements.txt,source=requirements.txt \</span><br><span class="line">    pip install --no-cache-dir --upgrade -r requirements.txt</span><br><span class="line"></span><br><span class="line"># Copy the current directory contents into the container at $HOME/app setting the owner to the user</span><br><span class="line">COPY --chown=user . $HOME/app</span><br><span class="line"></span><br><span class="line">RUN chmod +x start_server.sh</span><br><span class="line"></span><br><span class="line">COPY --chown=user login.html /home/user/miniconda/lib/python3.9/site-packages/jupyter_server/templates/login.html</span><br><span class="line"></span><br><span class="line"># Install R packages required for IRKernel</span><br><span class="line">RUN R -e "install.packages(c('repr', 'IRdisplay', 'evaluate', 'crayon', 'pbdZMQ', 'uuid', 'digest'), repos='https://cloud.r-project.org/')"</span><br><span class="line">RUN R -e "IRkernel::installspec(user = FALSE)"</span><br><span class="line"></span><br><span class="line">ENV PYTHONUNBUFFERED=1 \</span><br><span class="line">    GRADIO_ALLOW_FLAGGING=never \</span><br><span class="line">    GRADIO_NUM_PORTS=1 \</span><br><span class="line">    GRADIO_SERVER_NAME=0.0.0.0 \</span><br><span class="line">    GRADIO_THEME=huggingface \</span><br><span class="line">    SYSTEM=spaces \</span><br><span class="line">    SHELL=/bin/bash</span><br><span class="line"></span><br><span class="line">CMD ["./start_server.sh"]</span><br></pre></td></tr></tbody></table></figure><p>顺便，修改你的 <code>start_server.sh</code> 中<code>NOTEBOOK\_DIR="\~/app"</code>，这样可以在 Jupyterlab 启动后自动打开 Repo 的路径。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 2024.7 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>如何在 Jupyter Notebook 中使用 R 语言内核</title>
+      <link href="/posts/47021a1b/"/>
+      <url>/posts/47021a1b/</url>
+      
+        <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>我发现阿里的 Modelscope 免费给别人提供了深度学习的 Jupyter 在线笔记本服务，但是谷歌的 Colab 是提供 R 语言核心切换的，没有的话就自己搓。</p><h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><p>Modelscope 的在线笔记本的环境是 Ubuntu，因而先刷新包管理并更新：</p><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt update</span><br><span class="line"><span class="built_in">sudo</span> apt upgrade</span><br></pre></td></tr></tbody></table></figure><p>安装R：</p><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt install r-base</span><br></pre></td></tr></tbody></table></figure><p>特别的，如果没有拉取到这个包，则应该是服务器没有配资源，这个问题目前不存在在 Modelscope 上，建议：</p><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt install dirmngr gnupg apt-transport-https ca-certificates software-properties-common</span><br><span class="line"><span class="built_in">sudo</span> vim /etc/apt/sources.list</span><br></pre></td></tr></tbody></table></figure><p>添加内容：</p><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">deb https://cloud.r-project.org/bin/linux/ubuntu focal-cran40/</span><br></pre></td></tr></tbody></table></figure><p>更新源然后再安装：</p><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt update</span><br><span class="line"><span class="built_in">sudo</span> apt install r-base</span><br></pre></td></tr></tbody></table></figure><h1 id="R插件支持"><a href="#R插件支持" class="headerlink" title="R插件支持"></a>R插件支持</h1><p>在 Bash 输入<code>R</code>，之后：</p><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">install.packages(<span class="string">'IRkernel'</span>)</span><br><span class="line">IRkernel::installspec(user = FALSE)</span><br></pre></td></tr></tbody></table></figure><p>刷新你的笔记本，这样应该能在笔记本右上角切换内核为 R 了。</p><h1 id="二三事"><a href="#二三事" class="headerlink" title="二三事"></a>二三事</h1><p>经过一系列使用感觉 Modelscope 的环境还是太不稳定了，建议还是用 Colab。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 2024.6 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>如何重置 Git 内的所有的 Commit 记录</title>
+      <link href="/posts/b481b110/"/>
+      <url>/posts/b481b110/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>记录一下省的我下次忘记。</p></blockquote><ul><li>检出到一个全新的分支：</li></ul><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git checkout --orphan latest_branch</span><br></pre></td></tr></tbody></table></figure><ul><li>在新分支中新建一个新的提交：</li></ul><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git add -A</span><br><span class="line">git commit -am <span class="string">"init: init"</span></span><br></pre></td></tr></tbody></table></figure><ul><li>删除旧的主分支：</li></ul><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git branch -D master</span><br></pre></td></tr></tbody></table></figure><ul><li>重命名当前分支为主分支：</li></ul><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git branch -m master</span><br></pre></td></tr></tbody></table></figure><ul><li>强制更新远程主分支：</li></ul><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push -f origin master</span><br></pre></td></tr></tbody></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 2024.6 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Host the Best 服务器喜提爆炸</title>
+      <link href="/posts/19263/"/>
+      <url>/posts/19263/</url>
+      
+        <content type="html"><![CDATA[<p>我真的很服气 Host the Best 的服务，能一炸炸两天，还以为交割服务器线路呢。</p><p>所以说某方面来讲 Hexo + Serverless 确实好用，又简洁又能摸鱼又能省钱又不至于太难看。</p><p>是的，我在 CST 2024/5/19 4:37 写下这篇吐槽文，因为我在补材料，天哪。4202年还需要学生手写材料，U really drive me crazy。</p><p>之后看看能不能把我的文章抢救回来吧。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 日常 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 2024.5 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>你好世界！</title>
+      <link href="/posts/413cb8cc/"/>
+      <url>/posts/413cb8cc/</url>
+      
+        <content type="html"><![CDATA[<p>消费降级了，🙁。所以说，我给把我的博客迁移到 Hexo，进行一个 Serverless 的概念的一个托管。</p><p>虽然说我的博客大多数情况下是一个摆设，但是没有续费的压力也许能乱写一些乱七八糟的。</p><p>令人唏嘘，不过也算是一个新的开始！</p><p>顺便测试一下 CNAME 有没有问题。</p><p>再测试一下 Vercel 有没有问题。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 日常 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 2024.1 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
