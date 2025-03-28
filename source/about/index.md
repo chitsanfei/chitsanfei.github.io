@@ -1,9 +1,9 @@
 ---
 date: '2024-01-29T17:45:08+08:00'
 layout: about
-title: about
+title: 关于
 type: about
-updated: '2024-05-19T04:27:56.290+08:00'
+updated: '2025-03-28T09:29:31.022+08:00'
 ---
 ## 关于我
 
